@@ -130,6 +130,9 @@ li, a {
     .nav1{
         display: none;
     }
+    .top-box::after {
+        content: '';
+    }
 }
 
 @media(max-width: 600px) {

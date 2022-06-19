@@ -1,2 +1,2 @@
 # jpepesi-art
-cool shit
+cool shit for art

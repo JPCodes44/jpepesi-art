@@ -3,26 +3,43 @@
 
 <head>
     <meta name="viewport" content="with=device-width, initial-
-    scale=1.0"> 
+     scale=1.0 ">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo&family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="this.js"></script>
     <title>JP Mak</title>
-</head>
+</head> 
 
-<body>
+<body> 
     <section class="header">
-        <div class="top-box"> 
-            <h1>JP MAK</h1>
-            <div class="nav">
-                <ul>
-                    <li><a>asdjfaklsdjfkl</a></li>
-                    <li><a>asdjfaklsdjfkl</a></li>
-                    <li><a>asdjfaklsdjfkl</a></li>
+        <nav class="desktopHeader">
+            <div class="top-box" id="navLinks">
+                <i class="fa fa-bars" onclick="show()" id="bars"></i>
+                    <ul class="nav1">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Artwork</a></li>
+                    </ul>
+                    <h1>JP MAK</h1>
+                    <ul class="nav">
+                        <li><a href="#">My Social Media</a></li>
+                        <li><a href="#">References</a></li>
+                    </ul> 
+            </div>
+        </nav>
+        <nav class="mobileHeader">
+            <div class="nav-links" id="navLinks1">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul class="navShirnk">
+                    <li><a class="mobileText" href="#">About Me</a></li>
+                    <li><a class="mobileText" href="#">My Artwork</a></li>
+                    <li><a class="mobileText" href="#">My Social Media</a></li>
+                    <li><a class="mobileText" href="#">References</a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
     </section>
 </body>
 

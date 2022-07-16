@@ -9,38 +9,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo&family=Poppins:wght@100;200;300;400;600;700&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="this.js"></script>
     <title>JP Mak</title>
 </head> 
 
-<body> 
+<body>
+    <div class="mobile-links" id="mobileLinks">
+        <div class="menuclose">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        </div>
+        <ul class="nav-mobile">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Artwork</a></li> 
+            <li><a href="#">My Social Media</a></li>
+            <li><a href="#">References</a></li>
+        </ul>
+    </div>
     <section class="header">
-        <nav class="desktopHeader">
-            <div class="top-box" id="navLinks">
-                <i class="fa fa-bars" onclick="show()" id="bars"></i>
-                    <ul class="nav1">
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">My Artwork</a></li>
-                    </ul>
-                    <h1>JP MAK</h1>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <div class="top-box" id="topbox">
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
                     <ul class="nav">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Artwork</a></li> 
+                    </ul> 
+                    <h1>JP Mak</h1>
+                    <ul class="nav2">
                         <li><a href="#">My Social Media</a></li>
                         <li><a href="#">References</a></li>
-                    </ul> 
+                    </ul>
+                    <div class="pseudo"></div>
+                </div>
             </div>
         </nav>
-        <nav class="mobileHeader">
-            <div class="nav-links" id="navLinks1">
-                <i class="fa fa-times" onclick="hide()"></i>
-                <ul class="navShirnk">
-                    <li><a class="mobileText" href="#">About Me</a></li>
-                    <li><a class="mobileText" href="#">My Artwork</a></li>
-                    <li><a class="mobileText" href="#">My Social Media</a></li>
-                    <li><a class="mobileText" href="#">References</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="about-me" id="aboutme">
+            <h1>Hello, my name is Justin Mak and I like art.</h1>
+            <h1>Some of my works are down below.</h1>
+        </div>
     </section>
+    <script>
+        var mobileLinks = document.getElementById("mobileLinks");
+
+        function showMenu(){
+            mobileLinks.style.right = "0";
+        }
+        function hideMenu(){
+            mobileLinks.style.right = "-100%";
+        }
+    </script>
 </body>
 
 </html>

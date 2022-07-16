@@ -1,8 +1,8 @@
-var navLinks1 = document.getElementById("navLinks1");
+var mobileLinks = document.getElementById("mobileLinks");
 
-function show(){
-    navLinks1.style.left= "0";
+function showMenu(){
+    mobileLinks.style.left= "0";
 }
-function hide(){
-    navLinks1.style.left = "-100%";
+function hideMenu(){
+    mobileLinks.style.left = "-200%"; 
 }

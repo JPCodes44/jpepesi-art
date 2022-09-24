@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+     scale=1.0 ">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo&family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>JP Mak</title>
+</head> 
+
+<body>
+    <div class="mobile-links" id="mobileLinks">
+        <div class="menuclose">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        </div>
+        <ul class="nav-mobile">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Artwork</a></li> 
+            <li><a href="#">My Social Media</a></li>
+            <li><a href="#">References</a></li>
+        </ul>
+    </div>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <div class="top-box" id="topbox">
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                    <ul class="nav">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Artwork</a></li> 
+                    </ul> 
+                    <h1>JP Mak</h1>
+                    <ul class="nav2">
+                        <li><a href="#">My Social Media</a></li>
+                        <li><a href="#">References</a></li>
+                    </ul>
+                    <div class="pseudo"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="about-me" id="aboutme">
+            <h1>Hello, my name is Justin Mak and I like art.</h1>
+            <h1>Some of my works are down below.</h1>
+        </div>
+    </section>
+    <script>
+        var mobileLinks = document.getElementById("mobileLinks");
+
+        function showMenu(){
+            mobileLinks.style.right = "0";
+        }
+        function hideMenu(){
+            mobileLinks.style.right = "-100%";
+        }
+    </script>
+    <section class="gallery">
+
+        <div class="pictures">
+            <a href="https://www.instagram.com/p/CgCyqunupcA/?utm_source=ig_web_copy_link">
+                <img src="images/skull.JPG">
+            </a>
+            <a href="https://www.instagram.com/p/CgCysZfO2ZK/?utm_source=ig_web_copy_link">
+                <img src="images/anime.JPG">
+             </a>
+            <a href="https://www.instagram.com/p/CgdVlwbthpk/?utm_source=ig_web_copy_link">
+                <img src="images/figures.PNG">
+            </a>
+            <a href="https://www.instagram.com/p/CgqWQO6NNAK/?utm_source=ig_web_copy_link">
+                <img src="images/korean.JPG">
+            </a>
+            <a href="https://osu.ppy.sh/users/15500029">
+                <img src="images/pikapwners.jpg">
+            </a>
+            <a href="https://www.instagram.com/p/CgCymuGuv2F/?utm_source=ig_web_copy_link">
+                <img src="images/tree.PNG">
+            </a>
+            <a href="https://www.instagram.com/p/CgCymuGuv2F/?utm_source=ig_web_copy_link">
+                <img src="images/stick.PNG">
+            </a>
+            <a href="https://www.instagram.com/p/ChgPNCItGW_/?utm_source=ig_web_copy_link">
+                <img src="images/cap.PNG">
+            </a>
+            <a href="https://www.instagram.com/p/CgUvgqbu30a/?utm_source=ig_web_copy_link">
+            <img src="images/anime2.JPG">
+            </a>
+            <a href="https://www.instagram.com/p/ChgQNM3tXRQ/?utm_source=ig_web_copy_link">
+                <img src="images/girl.PNG">
+            </a>
+            <a href="https://www.instagram.com/p/CgkTxWYuIVK/?utm_source=ig_web_copy_link">
+            <img src="images/doodle.PNG">
+            </a>
+            <a href="https://www.instagram.com/p/Cgaeubmr1Eq/?utm_source=ig_web_copy_link">
+            <img src="images/feet.PNG">
+            </a>
+        </div>
+        
+    </section>
+    <section class="styles">
+        <div class="to-do">
+            <h1>Styles I am currently working on..</h1>
+        </div>
+        <div class="style">
+            <div class="pic">
+                <div class="label">
+                    <h2>Gestures</h2>
+                </div>
+                <a href="">
+                    <img src="images/gesture.PNG">
+                </a>
+            </div>
+            <div class="pic">
+                <div class="face-label">
+                    <h2>Faces</h2>
+                </div>
+                <a href=""> 
+                    <img src="images/face.JPG">
+                </a>
+            </div>
+            <div class="pic">
+                <div class="label">
+                    <h2>Planes</h2>
+                </div>
+                <a href="">
+                    <img src="images/planes.PNG">
+                </a>
+            </div>
+        </div>
+        <div class="inspirations">
+            <h3>My Socials / CONTACT ME!</h3>
+            <div class="inspired-resp">
+                <a class="socials" src href="https://www.instagram.com/jp_art727/">INSTAGRAM: @jp_art727</a>
+                <a class="socials" src href="https://www.linkedin.com/in/justin-mak1/">LINKEDIN: twitch.tv/jpepesi</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

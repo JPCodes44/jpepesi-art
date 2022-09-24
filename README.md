@@ -1,2 +1,2 @@
 # jpepesi-art
-Art Portfolio Website
+cool shit for art

@@ -2,8 +2,7 @@
 <html>
 
 <head>
-    <meta name="viewport" content="with=device-width, initial-
-     scale=1.0 ">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +17,10 @@
             <i class="fa fa-times" onclick="hideMenu()"></i>
         </div>
         <ul class="nav-mobile">
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Artwork</a></li> 
-            <li><a href="#">My Social Media</a></li>
-            <li><a href="#">References</a></li>
+            <li><a href="#myaboutme" onclick="hideMenu()">About Me</a></li>
+            <li><a href="#myartworks" onclick="hideMenu()">My Artwork</a></li> 
+            <li><a href="#mysocials" onclick="hideMenu()">My Social Media</a></li>
+            <li><a href="https://magicposer.com/" onclick="hideMenu()">References</a></li>
         </ul>
     </div>
     <section class="header">
@@ -30,19 +29,19 @@
                 <div class="top-box" id="topbox">
                     <i class="fa fa-bars" onclick="showMenu()"></i>
                     <ul class="nav">
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">My Artwork</a></li> 
+                        <li><a href="#myaboutme" onclick="hideMenu()">About Me</a></li>
+                        <li><a href="#myartworks" onclick="hideMenu()">My Artwork</a></li> 
                     </ul> 
                     <h1>JP Mak</h1>
                     <ul class="nav2">
-                        <li><a href="#">My Social Media</a></li>
-                        <li><a href="#">References</a></li>
+                        <li><a href="#mysocials" onclick="hideMenu()">My Social Media</a></li>
+                        <li><a href="#https://magicposer.com/" onclick="hideMenu()">References</a></li>
                     </ul>
                     <div class="pseudo"></div>
                 </div>
             </div>
         </nav>
-        <div class="about-me" id="aboutme">
+        <div class="about-me" id="myaboutme">
             <h1>Hello, my name is Justin Mak and I like art.</h1>
             <h1>Some of my works are down below.</h1>
         </div>
@@ -59,12 +58,12 @@
     </script>
     <section class="gallery">
 
-        <div class="pictures">
+        <div class="pictures" id="myartworks">
             <a href="https://www.instagram.com/p/CgCyqunupcA/?utm_source=ig_web_copy_link">
                 <img src="images/skull.JPG">
             </a>
-            <a href="https://www.instagram.com/p/CgCysZfO2ZK/?utm_source=ig_web_copy_link">
-                <img src="images/anime.JPG">
+            <a href="https://www.instagram.com/p/Ci6xyRVsoyO/?utm_source=ig_web_copy_link">
+                <img src="images/anime.png">
              </a>
             <a href="https://www.instagram.com/p/CgdVlwbthpk/?utm_source=ig_web_copy_link">
                 <img src="images/figures.PNG">
@@ -84,7 +83,7 @@
             <a href="https://www.instagram.com/p/ChgPNCItGW_/?utm_source=ig_web_copy_link">
                 <img src="images/cap.PNG">
             </a>
-            <a href="https://www.instagram.com/p/CgUvgqbu30a/?utm_source=ig_web_copy_link">
+            <a href="https://www.instagram.com/p/CnGB2J-L9r-/?utm_source=ig_web_copy_link">
             <img src="images/anime2.JPG">
             </a>
             <a href="https://www.instagram.com/p/ChgQNM3tXRQ/?utm_source=ig_web_copy_link">
@@ -93,7 +92,7 @@
             <a href="https://www.instagram.com/p/CgkTxWYuIVK/?utm_source=ig_web_copy_link">
             <img src="images/doodle.PNG">
             </a>
-            <a href="https://www.instagram.com/p/Cgaeubmr1Eq/?utm_source=ig_web_copy_link">
+            <a href="https://www.instagram.com/p/ChOe48hNmy3/?utm_source=ig_web_copy_link">
             <img src="images/feet.PNG">
             </a>
         </div>
@@ -129,8 +128,9 @@
                 </a>
             </div>
         </div>
-        <div class="inspirations">
-            <h3>My Socials / CONTACT ME!</h3>
+        
+        <div class="inspirations" id="mysocials">
+            <h5>My Socials / CONTACT ME!</h5>
             <div class="inspired-resp">
                 <a class="socials" src href="https://www.instagram.com/jp_art727/">INSTAGRAM: @jp_art727</a>
                 <a class="socials" src href="https://www.linkedin.com/in/justin-mak1/">LINKEDIN: Justin Mak</a>
@@ -141,3 +141,4 @@
 </body>
 
 </html>
+
